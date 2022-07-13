@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TONG KET</title>
+</head>
+<body>
+<form action="http://example.org">
+    <fieldset>
+        <legend>your details</legend>
+        <label>name:<br/>
+            <input type="text" name="name"/></label><br/>
+        <label>email:<br/>
+            <input type="text" name="email" />
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>your review</legend>
+        <p>How did you hear about us?
+        <select name="search">
+            <option value="Google">Google</option>
+            <option value="coccoc">coccoc</option>
+            <option value="EDGE">EDGE</option>
+        </select>
+        </p>
+        <p>Would you visit again?
+            <br/>
+            <input type="radio" name="genre" value="Yes" checked="checked"/>Yes
+            <input type="radio" name="genre" value="No"/>No
+            <input type="radio" name="genre" value="Maybe"/>Maybe
+        </p>
+        <p>Comments:
+        <textarea name="comments" cols="35" rows="5"></textarea>
+        </p>
+        <input type="checkbox" value="itunes" checked="checked"/>Sign me up for email updates
+        <br/>
+        <input type="submit" value="Submit review"/>
+    </fieldset>
+
+</form>
+</body>
+</html>
